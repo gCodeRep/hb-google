@@ -1,0 +1,40 @@
+# Python Virtual Environments & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+**/.venv/
+venv/
+**/venv/
+ENV/
+env/
+
+# Node / Web
+node_modules/
+dist/
+build/
+
+# Test Results, Benchmarks & Artifacts
+**/results/
+results/
+*.log
+**/*.log
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service_account.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
